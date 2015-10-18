@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9936E6A11BAA6D99009BDAB6 /* UIView+P2MSAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936E6A01BAA6D99009BDAB6 /* UIView+P2MSAddition.swift */; settings = {ASSET_TAGS = (); }; };
+		9936E6A31BAA6DEC009BDAB6 /* Dictionary+P2MSAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9936E6A21BAA6DEC009BDAB6 /* Dictionary+P2MSAddition.swift */; settings = {ASSET_TAGS = (); }; };
+		99441B9A1B3D040500DC40D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99441B991B3D040500DC40D8 /* AppDelegate.swift */; };
+		99441B9C1B3D040500DC40D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99441B9B1B3D040500DC40D8 /* ViewController.swift */; };
+		99441B9F1B3D040500DC40D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99441B9D1B3D040500DC40D8 /* Main.storyboard */; };
+		99441BA11B3D040500DC40D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99441BA01B3D040500DC40D8 /* Images.xcassets */; };
+		99441BA41B3D040500DC40D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99441BA21B3D040500DC40D8 /* LaunchScreen.xib */; };
+		99441BB01B3D040500DC40D8 /* P2MSCountDownTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99441BAF1B3D040500DC40D8 /* P2MSCountDownTimerTests.swift */; };
+		99441BC11B3D050500DC40D8 /* P2MSCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99441BC01B3D050500DC40D8 /* P2MSCountdownTimer.swift */; };
+		997504001BA95D000005ABE0 /* UIColor+Interpolate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997503FF1BA95D000005ABE0 /* UIColor+Interpolate.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99441BAA1B3D040500DC40D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99441B8C1B3D040500DC40D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99441B931B3D040500DC40D8;
+			remoteInfo = P2MSCountDownTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9936E6A01BAA6D99009BDAB6 /* UIView+P2MSAddition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+P2MSAddition.swift"; sourceTree = "<group>"; };
+		9936E6A21BAA6DEC009BDAB6 /* Dictionary+P2MSAddition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+P2MSAddition.swift"; sourceTree = "<group>"; };
+		99441B941B3D040500DC40D8 /* P2MSCountDownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2MSCountDownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99441B981B3D040500DC40D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99441B991B3D040500DC40D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99441B9B1B3D040500DC40D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99441B9E1B3D040500DC40D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99441BA01B3D040500DC40D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99441BA31B3D040500DC40D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99441BA91B3D040500DC40D8 /* P2MSCountDownTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2MSCountDownTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99441BAE1B3D040500DC40D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99441BAF1B3D040500DC40D8 /* P2MSCountDownTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2MSCountDownTimerTests.swift; sourceTree = "<group>"; };
+		99441BC01B3D050500DC40D8 /* P2MSCountdownTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P2MSCountdownTimer.swift; sourceTree = "<group>"; };
+		997503FF1BA95D000005ABE0 /* UIColor+Interpolate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Interpolate.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99441B911B3D040500DC40D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99441BA61B3D040500DC40D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99441B8B1B3D040500DC40D8 = {
+			isa = PBXGroup;
+			children = (
+				99441B961B3D040500DC40D8 /* P2MSCountDownTimer */,
+				99441BAC1B3D040500DC40D8 /* P2MSCountDownTimerTests */,
+				99441B951B3D040500DC40D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99441B951B3D040500DC40D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99441B941B3D040500DC40D8 /* P2MSCountDownTimer.app */,
+				99441BA91B3D040500DC40D8 /* P2MSCountDownTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99441B961B3D040500DC40D8 /* P2MSCountDownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				99441BBB1B3D044700DC40D8 /* Classes */,
+				99441B991B3D040500DC40D8 /* AppDelegate.swift */,
+				99441B9B1B3D040500DC40D8 /* ViewController.swift */,
+				99441B9D1B3D040500DC40D8 /* Main.storyboard */,
+				99441BA01B3D040500DC40D8 /* Images.xcassets */,
+				99441BA21B3D040500DC40D8 /* LaunchScreen.xib */,
+				99441B971B3D040500DC40D8 /* Supporting Files */,
+			);
+			path = P2MSCountDownTimer;
+			sourceTree = "<group>";
+		};
+		99441B971B3D040500DC40D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99441B981B3D040500DC40D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99441BAC1B3D040500DC40D8 /* P2MSCountDownTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				99441BAF1B3D040500DC40D8 /* P2MSCountDownTimerTests.swift */,
+				99441BAD1B3D040500DC40D8 /* Supporting Files */,
+			);
+			path = P2MSCountDownTimerTests;
+			sourceTree = "<group>";
+		};
+		99441BAD1B3D040500DC40D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99441BAE1B3D040500DC40D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99441BBB1B3D044700DC40D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9936E6A21BAA6DEC009BDAB6 /* Dictionary+P2MSAddition.swift */,
+				9936E6A01BAA6D99009BDAB6 /* UIView+P2MSAddition.swift */,
+				99441BC01B3D050500DC40D8 /* P2MSCountdownTimer.swift */,
+				997503FF1BA95D000005ABE0 /* UIColor+Interpolate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99441B931B3D040500DC40D8 /* P2MSCountDownTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99441BB31B3D040500DC40D8 /* Build configuration list for PBXNativeTarget "P2MSCountDownTimer" */;
+			buildPhases = (
+				99441B901B3D040500DC40D8 /* Sources */,
+				99441B911B3D040500DC40D8 /* Frameworks */,
+				99441B921B3D040500DC40D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P2MSCountDownTimer;
+			productName = P2MSCountDownTimer;
+			productReference = 99441B941B3D040500DC40D8 /* P2MSCountDownTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99441BA81B3D040500DC40D8 /* P2MSCountDownTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99441BB61B3D040500DC40D8 /* Build configuration list for PBXNativeTarget "P2MSCountDownTimerTests" */;
+			buildPhases = (
+				99441BA51B3D040500DC40D8 /* Sources */,
+				99441BA61B3D040500DC40D8 /* Frameworks */,
+				99441BA71B3D040500DC40D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99441BAB1B3D040500DC40D8 /* PBXTargetDependency */,
+			);
+			name = P2MSCountDownTimerTests;
+			productName = P2MSCountDownTimerTests;
+			productReference = 99441BA91B3D040500DC40D8 /* P2MSCountDownTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99441B8C1B3D040500DC40D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "PYAE PHYO MYINT SOE";
+				TargetAttributes = {
+					99441B931B3D040500DC40D8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					99441BA81B3D040500DC40D8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 99441B931B3D040500DC40D8;
+					};
+				};
+			};
+			buildConfigurationList = 99441B8F1B3D040500DC40D8 /* Build configuration list for PBXProject "P2MSCountDownTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99441B8B1B3D040500DC40D8;
+			productRefGroup = 99441B951B3D040500DC40D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99441B931B3D040500DC40D8 /* P2MSCountDownTimer */,
+				99441BA81B3D040500DC40D8 /* P2MSCountDownTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99441B921B3D040500DC40D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99441B9F1B3D040500DC40D8 /* Main.storyboard in Resources */,
+				99441BA41B3D040500DC40D8 /* LaunchScreen.xib in Resources */,
+				99441BA11B3D040500DC40D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99441BA71B3D040500DC40D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99441B901B3D040500DC40D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99441BC11B3D050500DC40D8 /* P2MSCountdownTimer.swift in Sources */,
+				9936E6A31BAA6DEC009BDAB6 /* Dictionary+P2MSAddition.swift in Sources */,
+				99441B9C1B3D040500DC40D8 /* ViewController.swift in Sources */,
+				9936E6A11BAA6D99009BDAB6 /* UIView+P2MSAddition.swift in Sources */,
+				99441B9A1B3D040500DC40D8 /* AppDelegate.swift in Sources */,
+				997504001BA95D000005ABE0 /* UIColor+Interpolate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99441BA51B3D040500DC40D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99441BB01B3D040500DC40D8 /* P2MSCountDownTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99441BAB1B3D040500DC40D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99441B931B3D040500DC40D8 /* P2MSCountDownTimer */;
+			targetProxy = 99441BAA1B3D040500DC40D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99441B9D1B3D040500DC40D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99441B9E1B3D040500DC40D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99441BA21B3D040500DC40D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99441BA31B3D040500DC40D8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99441BB11B3D040500DC40D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99441BB21B3D040500DC40D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99441BB41B3D040500DC40D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = P2MSCountDownTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ptwoms.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99441BB51B3D040500DC40D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = P2MSCountDownTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ptwoms.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		99441BB71B3D040500DC40D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = P2MSCountDownTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ptwoms.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P2MSCountDownTimer.app/P2MSCountDownTimer";
+			};
+			name = Debug;
+		};
+		99441BB81B3D040500DC40D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = P2MSCountDownTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ptwoms.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P2MSCountDownTimer.app/P2MSCountDownTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99441B8F1B3D040500DC40D8 /* Build configuration list for PBXProject "P2MSCountDownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99441BB11B3D040500DC40D8 /* Debug */,
+				99441BB21B3D040500DC40D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99441BB31B3D040500DC40D8 /* Build configuration list for PBXNativeTarget "P2MSCountDownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99441BB41B3D040500DC40D8 /* Debug */,
+				99441BB51B3D040500DC40D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99441BB61B3D040500DC40D8 /* Build configuration list for PBXNativeTarget "P2MSCountDownTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99441BB71B3D040500DC40D8 /* Debug */,
+				99441BB81B3D040500DC40D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99441B8C1B3D040500DC40D8 /* Project object */;
+}
